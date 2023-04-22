@@ -1,38 +1,544 @@
-[python]
-label = "Python"
+[technology]
+label = "Technology"
 
-[[python.questions]]
-question = "How can you add a docstring to a function"
-answers = [
-    "By writing a string literal as the first statement in the function",
-    "By assigning a string to the function's .__doc__ attribute",
-]
-alternatives = [
-    "By using the built-in @docstring decorator",
-    "By returning a string from the function",
-]
-hint = "They're parsed from your code and stored on the function object."
+[[technology.questions]]
+question = "Which of the following is an example of a programming language?"
+answers = [ "Java"]
+alternatives = ["Photoshop", "Acrobat Reader","Excel"]
+hint = "This language is commonly used for building enterprise-level web applications."
 explanation = """
-    Docstrings document functions and other Python objects. A docstring is a
-    string literal that occurs as the first statement in a module, function,
-    class, or method definition. Such a docstring becomes the .__doc__ special
-    attribute of that object. See PEP 257 for more information.
-
-    There's no built-in @docstring decorator. Many functions naturally return
-    strings. Such a feature can therefore not be used for docstrings.
+    Java is a high-level, object-oriented programming language.
 """
 
-[[python.questions]]
-question = "When was the first public version of Python released?"
-answers = ["February 1991"]
-alternatives = ["January 1994", "October 2000", "December 2008"]
-hint = "The first public version was labeled version 0.9.0."
+[[technology.questions]]
+question = "Which of the following is a type of computer memory?"
+answers = ["RAM memory"]
+alternatives = ["Keyboard memory", "Hard disk memory", "Mouse memory"]
+hint = " This type of memory loses its contents when the power is turned off."
 explanation = """
-    Guido van Rossum started work on Python in December 1989. He posted
-    Python v0.9.0 to the alt.sources newsgroup in February 1991. Python
-    reached version 1.0.0 in January 1994. The next major versions,
-    Python 2.0 and Python 3.0, were released in October 2000 and December
-    2008, respectively.
+    RAM (Random Access Memory) is a type of computer memory that is used for temporary storage of data and program instructions.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer network?"
+answers = ["All of the above"]
+alternatives = ["WAN", "LAN", "MAN"]
+hint = " This type of network connects multiple devices and allows them to share resources and data."
+explanation = """
+    WAN (Wide Area Network), LAN (Local Area Network), and MAN (Metropolitan Area Network) are all types of computer networks.
+"""
+
+[[technology.questions]]
+question = "Which of the following is NOT an example of a web browser?"
+answers = ["Microsoft Word"]
+alternatives = ["Chrome", "Firefox", "Safari"]
+hint = " This type of application is used for creating and editing documents."
+explanation = """
+    Microsoft Word is not a web browser. It is a word processing application.
+"""
+
+[[technology.questions]]
+question = "Which of the following is an example of a cloud storage service?"
+answers = ["Google Drive"]
+alternatives = ["iTunes", "Netflix", "Skype"]
+hint = "This type of service is often used for backing up data and sharing files with others."
+explanation = """
+    Google Drive is a cloud storage service that allows users to store and access files from anywhere with an internet connection.
+"""
+
+[[technology.questions]]
+question = "Which of the following is NOT an example of a mobile operating system?"
+answers = ["macOS"]
+alternatives = ["Android", "iOS", "Windows"]
+hint = "This type of operating system is used on smartphones and tablets."
+explanation = """
+   macOS is not a mobile operating system. It is a desktop operating system developed by Apple.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer virus?"
+answers = ["Trojan"]
+alternatives = ["Router", "Mouse", "Keyboard"]
+hint = "This type of virus is often used for stealing sensitive data and gaining unauthorized access to systems."
+explanation = """
+    A Trojan is a type of computer virus that disguises itself as legitimate software.
+"""
+
+[[technology.questions]]
+question = "Which of the following is an example of a search engine?"
+answers = ["Yahoo"]
+alternatives = ["Twitter", " Facebook", "Instagram"]
+hint = "This type of service is often used for finding websites and other online resources."
+explanation = """
+    Yahoo is a search engine that allows users to search the web for information.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer peripheral?"
+answers = ["Keyboard"]
+alternatives = ["Hard drive", "CPU", "Motherboard"]
+hint = "This type of peripheral is often used for typing and gaming."
+explanation = """
+    A keyboard is a type of computer peripheral used for inputting data and commands.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer network topology?"
+answers = ["All of the above"]
+alternatives = ["Bus", "Point-to-point", "Star"]
+hint = "This type of topology determines how devices are connected to a network."
+explanation = """
+    Bus, point-to-point, and star are all types of computer network topologies.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer processor architecture?"
+answers = ["All of the above"]
+alternatives = ["ARM", "Intel", "AMD"]
+hint = "This type of architecture determines the type of processor used in a computer."
+explanation = """
+    ARM, Intel, and AMD are all examples of computer processor architectures.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer port?"
+answers = ["All of the above"]
+alternatives = ["USB", "HDMI", "VGA"]
+hint = "This type of interface allows devices to connect to a computer system."
+explanation = """
+    USB, HDMI, and VGA are all types of computer ports.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer display?"
+answers = ["CRT"]
+alternatives = [" DVD", "USB", "HDMI"]
+hint = "It is a type of display, not a hardware device."
+explanation = """
+    CRT (Cathode Ray Tube) is a type of computer display that was common before the advent of LCD and LED displays.
+"""
+
+[[technology.questions]]
+question = "Which of the following is a type of computer virus that spreads through email?"
+answers = ["Worm"]
+alternatives = ["Trojan", "Spyware", "Adware"]
+hint = "This type of virus can replicate itself and spread rapidly through a network."
+explanation = """
+    A worm is a type of computer virus that spreads through email and other networked systems.
+"""
+
+[[technology.questions]]
+question = "Which of the following is an example of a cloud-based application?"
+answers = ["Google Docs"]
+alternatives = ["Microsoft Word", "Photoshop", "VLC Player"]
+hint = "This type of application allows users to collaborate in real-time and access their documents from anywhere."
+explanation = """
+    Google Docs is a cloud-based application that allows users to create and edit documents online.
+"""
+
+[generalknowledge]
+label = "General Knowledge"
+
+[[generalknowledge.questions]]
+question = "What is the smallest planet in our solar system?"
+answers = ["Mercury"]
+alternatives = ["Mars", "Pluto", "Venus"]
+hint = "It's named after the Roman messenger god."
+explanation = """
+    Mercury is the smallest planet in our solar system, and it is named after the Roman messenger god, who was known for his speed and agility.
+"""
+
+[[generalknowledge.questions]]
+question = "Who was the first person to reach the summit of Mount Everest without using supplemental oxygen?"
+answers = ["Tenzing Norgay"]
+alternatives = ["Reinhold Messner", "Sir Edmund Hillary", "Junko Tabei"]
+hint = " He was a Sherpa mountaineer from Nepal."
+explanation = """
+    Tenzing Norgay was a Sherpa mountaineer from Nepal who, along with Sir Edmund Hillary, was the first person to reach the summit of Mount Everest without using supplemental oxygen.
+"""
+
+[[generalknowledge.questions]]
+question = "Which country is both the smallest country in the world by area and the most populous country in the world?"
+answers = ["Vatican City"]
+alternatives = ["Monaco", "San Marino", "Liechtenstein"]
+hint = "It is located in Europe."
+explanation = """
+    Vatican City is the smallest country in the world by area, but it is also the most populous country in the world, with a population of approximately 800 people. It is located in Europe.
+"""
+
+[[generalknowledge.questions]]
+question = "What is the only continent that is also a country?"
+answers = ["Australia"]
+alternatives = ["Europe", "Antarctica", "Africa"]
+hint = "It is also known as the \"Land Down Under\"."
+explanation = """
+    Australia is the only continent that is also a country. It is located in the southern hemisphere and is also known as the "Land Down Under".
+"""
+
+[[generalknowledge.questions]]
+question = "In what year did the Berlin Wall fall, leading to the reunification of Germany?"
+answers = ["1989"]
+alternatives = ["1987", "1991", "1993"]
+hint = "It was towards the end of the Cold War."
+explanation = """
+    The Berlin Wall fell in 1989, leading to the reunification of Germany. This event was a significant milestone in the end of the Cold War.
+"""
+
+[[generalknowledge.questions]]
+question = "Which African country was the first to gain independence from European colonial rule?"
+answers = ["Ghana"]
+alternatives = ["Kenya", "Egypt", "Tanzania"]
+hint = "It gained independence in 1957."
+explanation = """
+    Ghana was the first African country to gain independence from European colonial rule. It gained independence in 1957.
+"""
+
+[[generalknowledge.questions]]
+question = "Which artist painted the famous work \"The Persistence of Memory\", featuring melting clocks?"
+answers = ["Salvador Dalí"]
+alternatives = ["Pablo Picasso", "Vincent van Gogh", "Claude Monet"]
+hint = "He was a Spanish surrealist painter."
+explanation = """
+    "The Persistence of Memory" is a famous work by Salvador Dalí, a Spanish surrealist painter. The painting features melting clocks and has become one of the most recognizable works of art in the world.
+"""
+
+[[generalknowledge.questions]]
+question = "Which country is home to the world's tallest building, the Burj Khalifa?"
+answers = ["United Arab Emirates"]
+alternatives = ["United States", "China", "Saudi Arabia"]
+hint = "It is located in the Middle East."
+explanation = """
+    The Burj Khalifa, the world's tallest building, is located in Dubai, United Arab Emirates. It stands at 828 meters tall.
+"""
+
+[[generalknowledge.questions]]
+question = "Which element has the highest melting point?"
+answers = ["Tungsten"]
+alternatives = ["Carbon", "Titanium", "Platinum"]
+hint = "It has an atomic number of 74."
+explanation = """
+    Tungsten has the highest melting point of any element, at 3422 degrees Celsius. It has an atomic number of 74.
+"""
+
+[[generalknowledge.questions]]
+question = "Which African country is the most populous?"
+answers = ["Nigeria"]
+alternatives = ["Egypt", "Ethiopia", "Democratic Republic of the Congo"]
+hint = "It has a population of over 200 million people."
+explanation = """
+    Nigeria is the most populous country in Africa, with a population of over 200 million people.
+"""
+
+[[generalknowledge.questions]]
+question = "Which country is the world's largest producer of coffee?"
+answers = ["Brazil"]
+alternatives = ["Colombia", "Ethiopia", "Vietnam"]
+hint = "It produces over one-third of the world's coffee."
+explanation = """
+    Brazil is the world's largest producer of coffee, producing over one-third of the world's coffee.
+"""
+
+[[generalknowledge.questions]]
+question = "In what year did the Great Fire of London take place?"
+answers = ["1666"]
+alternatives = ["1605", "1707", "1752"]
+hint = "It was a year after the end of the English Civil War."
+explanation = """
+    The Great Fire of London took place in 1666, a year after the end of the English Civil War. It destroyed over 13,000 houses and killed over 70 people.
+"""
+
+[[generalknowledge.questions]]
+question = "Who was the first person to discover a planet using a telescope?"
+answers = ["William Herschel"]
+alternatives = ["Galileo Galilei", "Isaac Newton", "Johannes Kepler"]
+hint = "He discovered Uranus."
+explanation = """
+    William Herschel was the first person to discover a planet using a telescope. He discovered Uranus in 1781.
+"""
+
+[[generalknowledge.questions]]
+question = "Which river is the longest in the world?"
+answers = ["Nile"]
+alternatives = ["Amazon", "Mississippi", "Yangtze"]
+hint = "It is located in Africa."
+explanation = """
+    The Nile is the longest river in the world, stretching over 6,600 kilometers through Africa.
+"""
+
+[[generalknowledge.questions]]
+question = "What is the name of the instrument used to measure atmospheric pressure?"
+answers = ["Barometer"]
+alternatives = ["Thermometer", "Anemometer", "Hygrometer"]
+hint = "It was invented by Evangelista Torricelli."
+explanation = """
+    A barometer is the instrument used to measure atmospheric pressure. It was invented by Evangelista Torricelli in the 17th century.
+"""
+
+
+[science]
+label = "Science"
+
+[[science.questions]]
+question = "Which of the following is not a fundamental force of nature?"
+answers = ["Centrifugal force"]
+alternatives = ["Strong force", "Weak force", "Electromagnetic force"]
+hint = "This force is often referred to as a \"fake\" force."
+explanation = """
+    The correct answer is (d) Centrifugal force. This is not a fundamental force, but rather an apparent force that arises from rotating frames of reference.
+"""
+
+[[science.questions]]
+question = "Which element is used as a coolant in nuclear reactors?"
+answers = ["Helium"]
+alternatives = ["Uranium", "Plutonium", "Sodium"]
+hint = "This element is a noble gas and is also used in balloons."
+explanation = """
+    Helium is used as a coolant in nuclear reactors because it is a stable and inert gas that does not react with other elements.
+"""
+
+[[science.questions]]
+question = "What is the name of the process by which a solid changes directly into a gas??"
+answers = ["Sublimation"]
+alternatives = ["Vaporization", "Condensation", "Melting"]
+hint = "This process is often used to make dry ice."
+explanation = """
+   Sublimation is the process by which a solid changes directly into a gas without going through the liquid phase.
+"""
+
+[[science.questions]]
+question = "What is the smallest particle of an element that retains the chemical properties of that element?"
+answers = ["Atom"]
+alternatives = ["Molecule", "Electron", "Proton"]
+hint = "This particle has a neutral charge."
+explanation = """
+    Atoms are the smallest particles of an element that retain the chemical properties of that element.
+"""
+
+[[science.questions]]
+question = "What is the SI unit of pressure?"
+answers = ["Pascal"]
+alternatives = ["Newton", "Joule", "Watt"]
+hint = "This unit is named after a French mathematician and physicist."
+explanation = """
+    The Pascal is the SI unit of pressure and is named after Blaise Pascal.
+"""
+
+[[science.questions]]
+question = "Which of the following is a type of electromagnetic radiation that has a wavelength longer than visible light?"
+answers = ["Infrared radiation"]
+alternatives = ["X-rays", "Gamma rays", "Ultraviolet radiation"]
+hint = "This radiation is often associated with warmth."
+explanation = """
+    Infrared radiation has a longer wavelength than visible light and is often associated with warmth and heat.
+"""
+
+[[science.questions]]
+question = "What is the name of the process by which green plants use sunlight to synthesize food from carbon dioxide and water?"
+answers = ["Photosynthesis"]
+alternatives = ["Respiration", "Fermentation", "Combustion"]
+hint = "This process releases oxygen as a byproduct."
+explanation = """
+    Photosynthesis process involves the conversion of light energy into chemical energy and releases oxygen as a byproduct.
+"""
+
+[[science.questions]]
+question = "What is the boiling point of water at sea level in degrees Celsius?"
+answers = ["100°C"]
+alternatives = ["0°C", "212°C", "373°C"]
+hint = "This temperature is commonly used as a reference point in temperature scales."
+explanation = """
+    This is the temperature at which water boils at sea level and is commonly used as a reference point in temperature scales.
+"""
+
+[[science.questions]]
+question = "Which of the following is the most abundant gas in Earth's atmosphere?"
+answers = ["Nitrogen"]
+alternatives = ["Carbon dioxide", "Oxygen", "Argon"]
+hint = "This gas makes up about 78% of the Earth's atmosphere."
+explanation = """
+    Nitrogen makes up about 78% of the Earth's atmosphere, followed by oxygen at 21%. The remaining 1% is made up of other gases.
+"""
+
+[[science.questions]]
+question = "What type of rock is formed by the solidification of lava or magma?"
+answers = ["Igneous"]
+alternatives = ["Sedimentary", "Metamorphic", "Mineral"]
+hint = "This type of rock is formed by the cooling and solidification of molten material."
+explanation = """
+    This type of rock is formed by the cooling and solidification of molten material. It is also known as extrusive or intrusive rock. Examples of igneous rocks include granite and basalt.
+"""
+
+[[science.questions]]
+question = "Which of the following is an example of a nonrenewable resource?"
+answers = ["Coal"]
+alternatives = ["Wind", "Solar energy", "Biomass"]
+hint = "This resource is finite and cannot be replenished within a human lifespan."
+explanation = """
+    Nonrenewable resources include fossil fuels such as coal, oil, and natural gas. These resources are finite and cannot be replenished within a human lifespan.
+"""
+
+[[science.questions]]
+question = "What is the process by which an atom loses or gains electrons called?"
+answers = ["Ionization"]
+alternatives = ["Isotope", "Bonding", "Fusion"]
+hint = "This process results in a change in the charge of the atom."
+explanation = """
+    When an atom loses or gains electrons, it becomes an ion with a positive or negative charge. This process is called ionization.
+"""
+
+[[science.questions]]
+question = "Which of the following is a vector quantity?"
+answers = ["Velocity"]
+alternatives = ["Mass", "Temperature", "Volume"]
+hint = "This quantity has both magnitude and direction."
+explanation = """
+    This quantity has both magnitude and direction. Examples of vector quantities include velocity, acceleration, and force.
+"""
+
+[[science.questions]]
+question = "What is the process by which light bends as it passes through a medium with a different refractive index called?"
+answers = ["Refraction"]
+alternatives = ["Reflection", "Diffraction", "Dispersion"]
+hint = "This process causes the apparent shift in position of objects seen through a lens."
+explanation = """
+    Refraction causes the apparent shift in position of objects seen through a lens. It is also responsible for the bending of light around the edges of a glass of water. Examples of refraction include the bending of light as it passes through a prism or a magnifying glass.
+"""
+
+[[science.questions]]
+question = "What is the process by which a cell divides into two identical daughter cells called?"
+answers = ["Mitosis"]
+alternatives = ["Meiosis", "Cytokinesis", "Differentiation"]
+hint = "This process results in the growth and repair of tissues in the body."
+explanation = """
+    During mitosis, the DNA in the parent cell is duplicated and divided equally between the two daughter cells. This process results in the growth and repair of tissues in the body.
+"""
+
+[business]
+label = "business"
+
+[[business.questions]]
+question = "Which of the following is NOT a factor of production?"
+answers = ["sales"]
+alternatives = [
+    "labor",
+    "capital",
+    "technology"    
+]
+hint = "related to marketing"
+explanation = """
+    Sales is not a factor of production. Factors of production are the resources used in the production process, including labor, capital, and technology.
+"""
+
+[[business.questions]]
+question = "What is the main purpose of a business plan?"
+answers = ["all"]
+alternatives = ["To secure funding from investors","to set financial goals for the business", " To outline marketing strategies"]
+hint = "here we need to focus on strategies"
+explanation = """
+A business plan serves multiple purposes, including securing funding from investors, setting financial goals for the business, and outlining marketing strategies.   
+"""
+[[business.questions]]
+question = "What is the function of human resource management in a business?"
+answers = ["Managing the employee"]
+alternatives = ["Managing the financial resources","Managing the physical resources", "  Managing the marketing strategies"]
+hint = "here we need to focus on strategies"
+explanation = """
+Human resource management involves managing the employees of a business, including recruitment, training, performance evaluation, and other personnel-related functions.
+"""
+
+[[business.questions]]
+question = "Which of the following is an example of a variable cost in a business?"
+answers = ["Raw material"]
+alternatives = ["  Rent","salaries", " insurance"]
+hint = "Variable costs are expenses that vary with the level of production or sales volume"
+explanation = """
+Raw materials are an example of a variable cost because the cost of these materials increases or decreases depending on the amount of output a business produces. As the business produces more products, it will need to purchase more raw materials, resulting in higher variable costs. 
+"""
+
+[[business.questions]]
+question ="What is the purpose of a profit and loss statement in accounting? "
+answers=[". To calculate the net income of a business. "]
+alternatives = [" To show the financial position of a business at a specific point in time","To provide information about the cash flow of a business","To provide a summary of all transactions during a specific period of time"]
+hint="A profit and loss statement is also known as an income statement. It shows the revenues, expenses, and net income of a business during a specific period of time."
+explanation=""" The purpose of a profit and loss statement is to calculate the net income of a business by subtracting all expenses from the revenues generated during a specific period of time. It is an important financial statement that helps businesses evaluate their financial performance over time.
+"""
+
+[[business.questions]]
+question=" Which of the following is a characteristic of a corporation?"
+answers=[" Limited liability for the owners."]
+alternatives=[" Unlimited liability for the owners"," Simple and inexpensive to form","Has a single owner"]
+hint="A corporation is a legal entity that is separate from its owners. This means that the owners have limited liability for the debts and obligations of the business."
+explanation="""One of the main advantages of a corporation is that the owners have limited liability for the debts and obligations of the business. This means that the personal assets of the owners are protected from any legal action taken against the business.
+"""
+
+[[business.questions]]
+question=" What is the purpose of market research?"
+answers=[" To identify the target market for a product or service"]
+alternatives=["To develop a pricing strategy for a product or service"," To develop a product or service that meets the needs of the target market","To create a promotional plan to reach the target market"]
+hint="Market research is the process of gathering information about a market to help businesses make informed decisions about their products or services."
+explanation=""" The purpose of market research is to identify the target market for a product or service. This involves gathering information about the needs and preferences of potential customers, as well as analyzing the competition in the market. The information gathered through market research can then be used to develop a marketing strategy that will effectively reach and engage the target market.
+"""
+[[business.questions]]
+question="What is the purpose of a business plan? "
+answers=["To provide a roadmap for the future of a business."]
+alternatives=[" To outline the organizational structure of a business","To provide information about the cash flow of a business","To create a promotional plan to reach the target market"]
+hint="A business plan is a written document that outlines a business's goals, strategies, and plans for the future."
+explanation=""" The purpose of a business plan is to provide a roadmap for the future of a business. It outlines the business's goals and objectives, the strategies it will use to achieve them, and the action plan for implementation. A well-written
+"""
+[[business.questions]]
+question=" Which of the following is not a factor of production?"
+answers=["market"]
+alternatives=["labor","capital","entrepreneurship"]
+hint="Factors of production are the resources used to produce goods and services."
+explanation=""" The market is not a factor of production. It is a place where buyers and sellers interact to exchange goods and services.
+"""
+
+[[business.questions]]
+question="Which of the following is not a type of business ownership?"
+answers=["union"]
+alternatives=["partnership","corporation","sole proprietorship"]
+hint="Business ownership refers to the legal structure of a business."
+explanation="""A union is an organization formed by workers to protect their rights and interests. It is not a type of business ownership.
+"""
+
+[[business.questions]]
+question="Which of the following is a marketing strategy that involves setting a high price for a new product to maximize profits?"
+answers=["skimming pricing"]
+alternatives=["penetration pricing","discount pricing","bundle pricing"]
+hint="Pricing strategies determine how much a company will charge for its products or services."
+explanation="""Skimming pricing involves setting a high price for a new product to maximize profits, usually before competitors enter the market.
+"""
+
+[[business.questions]]
+question="Which of the following is an economic system in which the government controls all aspects of production and distribution?"
+answers=["communism"]
+alternatives=["capitalism","socialism","market economy"]
+hint="Economic systems describe how a society decides what to produce, how to produce it, and how to distribute it."
+explanation="""Communism is an economic system in which the government controls all aspects of production and distribution, and there is no private ownership of property or resources.
+"""
+
+[[business.questions]]
+question="Which of the following is a legal agreement between two or more parties to conduct a business together?"
+answers=["joint venture"]
+alternatives=["franchise","acquisition","merger"]
+hint="This type of agreement involves two or more parties collaborating to conduct a business."
+explanation=""" A joint venture is a legal agreement between two or more parties to conduct a business together for a specific purpose and period of time.
+"""
+
+[[business.questions]]
+question="Which of the following is a marketing strategy that involves promoting a product or service to a specific group of consumers?"
+answers=["Niche marketing"]
+alternatives=["mass marketing","guerilla marketing","direct marketing"]
+hint=""
+explanation="""
+"""
+
+[[business.questions]]
+question="Which of the following is a financial statement that shows a company's revenues and expenses over a period of time? "
+answers=["income statement"]
+alternatives=["balance sheet","cash flow statement","statement of earnings"]
+hint="Financial statements provide information about a company's financial performance and position."
+explanation="""The income statement shows a company's revenues and expenses over a period of time, usually a quarter or a year.
 """
 
 [capitals]
@@ -41,8 +547,8 @@ label = "Capitals"
 [[capitals.questions]]
 question = "What's the capital of Norway"
 answers = ["Oslo"]
-hint = "Lars Onsager, Jens Stoltenberg, Trygve Lie, and Børge Ousland."
 alternatives = ["Stockholm", "Copenhagen", "Helsinki", "Reykjavik"]
+hint = "Lars Onsager, Jens Stoltenberg, Trygve Lie, and Børge Ousland."
 explanation = """
     Oslo was founded as a city in the 11th century and established as a
     trading place. It became the capital of Norway in 1299. The city was
@@ -59,4 +565,237 @@ explanation = """
     Austin is named in honor of Stephen F. Austin. It was purpose-built to
     be the capital of Texas and was incorporated in December 1839. Houston,
     Harrisburg, Columbia, and Galveston are all earlier capitals of Texas.
+"""
+
+[[capitals.questions]]
+question="What is the capital of France? "
+answers=["paris"]
+alternatives=["berlin","madrid","rome"]
+hint= "The Eiffel Tower is located in this city."
+explanation="""Paris is the capital of France because of its historical, cultural, and economic significance. The city has played a crucial role in the development of France as a nation since the Middle Ages, and has served as the capital since the 10th century.
+"""
+
+[[capitals.questions]]
+question="What is the capital of India?"
+answers=["Delhi"]
+alternatives=["Gujurat","Chennai","Kolkata"]
+hint ="here is located the india gate"
+explanation="""as delhi has the ultimate management to maintain all the historical, cultural, and economic significance. The city has played a crucial role in the development of France as a nation since the Middle Ages, and has served as the capital since the 19th century
+"""
+
+[[capitals.questions]]
+question="What is the capital of Canada?"
+answers=["Ottawa"]
+alternatives=["toronto","Montreal","Vancouver"]
+hint="This city is located in eastern Canada and is home to the Parliament of Canada."
+explanation="""
+"""
+
+[[capitals.questions]]
+question="What is the capital of Brazil? "
+answers=["Brasilia"]
+alternatives=["Rio de Janeiro","Sao Paulo","Salvador"]
+hint="This city is located in eastern Canada and is home to the Parliament of Canada."
+explanation="""
+"""
+
+[[capitals.questions]]
+question="What is the capital of Egypt?"
+answers=["Cairo"]
+alternatives=["Alexandria","Aswan","Luxor"]
+hint="This city is known for its ancient landmarks such as the Pyramids of Giza and the Sphinx."
+explanation="""
+"""
+
+[[capitals.questions]]
+question="What is the capital of Australia?"
+answers=["Canberra"]
+alternatives=["Sydney","Melbourne","Perth"]
+hint="This city was purpose-built to serve as the capital of Australia and is located between Sydney and Melbourne."
+explanation="""
+"""
+
+[[capitals.questions]]
+question="What is the capital of Spain?"
+answers=["Madrid"]
+alternatives=["BArcelona","Valencia","Seville"]
+hint="This city is known for its art museums, such as the Prado and the Reina Sofía, and is the largest city in Spain."
+explanation="""
+"""
+
+
+[[capitals.questions]]
+question="What is the capital of Russia?"
+answers=["Moscow"]
+alternatives=["Sochi","St. Petersburg","Kazan"]
+hint="This city is home to the Kremlin, Red Square, and St. Basil's Cathedral."
+explanation="""
+"""
+
+
+[[capitals.questions]]
+question="What is the capital of South Africa?"
+answers=["Pretoria"]
+alternatives=["Johannesburg","Durban","Cape town"]
+hint="Although Cape Town is the legislative capital of South Africa, Pretoria is the administrative capital and the seat of government."
+explanation="""
+"""
+
+
+[[capitals.questions]]
+question="What is the capital of Japan?"
+answers=["TOkyo"]
+alternatives=["Osaka","Kyoto","Hiroshima"]
+hint=" This city is known for its high-tech industries and vibrant nightlife"
+explanation="""
+"""
+
+
+[[capitals.questions]]
+question="What is the capital of Germany?"
+answers=["Berlin"]
+alternatives=["Munich","Frankfurt","Hamburg"]
+hint="This city has been the capital of Germany since 1990, following the reunification of East and West Germany."
+explanation="""
+"""
+
+
+[[capitals.questions]]
+question="What is the capital of Mexico?"
+answers=["Mexico city"]
+alternatives=["Cancun","Monterrey","Guadalajara"]
+hint=" This city is one of the largest in the world, with a population of over 20 million people in its metropolitan area."
+explanation="""
+"""
+
+
+[[capitals.questions]]
+question="What is the capital of South Korea?"
+answers=["Seoul"]
+alternatives=["Buchan","Incheon","Daegu"]
+hint="This city is a major center for technology, entertainment, and fashion, and is home to several universities."
+explanation="""
+"""
+
+[Sports]
+label = "Sports"
+
+[[Sports.questions]]
+question="Who is the all-time leading scorer in men's international soccer?"
+answers=["Cristiano Ronaldo"]
+alternatives=["Messi","Pele","Maradona"]
+hint="This Portuguese player has scored over 110 goals in international matches, surpassing the previous record held by Iran's Ali Daei."
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the most successful tennis player in Grand Slam history?"
+answers=["Novak Djokovic"]
+alternatives=["Roger Federer","Pete Sampras","Rafael Nadal"]
+hint="This Serbian player has won a record 20 Grand Slam singles titles, surpassing the previous record held by Federer and Nadal."
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the all-time leading scorer in the NBA?"
+answers=["Kareem Abdul Jabbar"]
+alternatives=["Kobe bryant","Michael Jordan","LeBron James"]
+hint=" This American player scored over 38,000 points in his career, surpassing the previous record held by Karl Malone."
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the most successful Olympic athlete of all time?"
+answers=["Sachin Tendulkar"]
+alternatives=["Lara","Sangakara","Ponting"]
+hint="This Indian player scored over 34,000 runs in international matches, including 100 international centuries, which is more than any other player."
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the fastest man in history?"
+answers=["Usain Bolt"]
+alternatives=["Tyson gay","YOhan Blake","Justin Galtin"]
+hint=" This Jamaican sprinter holds the world record in both the 100-meter and 200-meter dashes, with times of 9.58 seconds and 19.19 seconds, respectively."
+explanation="""
+"""
+
+[[Sports.questions]]
+question=" Who is the only player to win Highest FIFA Ballon d'Or awards?"
+answers=["Lionel Messi"]
+alternatives=["Cristiano Ronaldo","Johan Cruyff","Kylian Mbappe"]
+hint="he is an ex Barcelona player"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the only golfer to win all four major championships in a single year?"
+answers=["BEn hogan"]
+alternatives=["tiger woods","jack nicklaus","arnold palmer"]
+hint="the golfer won the Masters, U.S. Open, British Open, and PGA Championship in 1953"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the most successful Formula One driver of all time?"
+answers=["Lewis Hamilton"]
+alternatives=["michael schumacher","ayrton senna","alain prost"]
+hint="This British driver has won a total of 7 Formula One World Championships, surpassing the previous record held by Schumacher."
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the WWE superstar known as The Beast Incarnate"
+answers=["Brock lesnar"]
+alternatives=["john cena","triple H","Roman reigns"]
+hint="he has won the multiple universal championship"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Which country has won the most number of women's field hockey World Cups?"
+answers=["Netherlands"]
+alternatives=["Australia","India","Argentina"]
+hint="They have won 8 World cups"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="which state of india firstly has won triple national sports championships"
+answers=["Kolkata"]
+alternatives=["Mumbai","Chennai","Bangalore"]
+hint="three sports are Cricket, football, kabaddi"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="which team has won the first hattrick ucl award in football"
+answers=["Real Madrid"]
+alternatives=["Barcelona","Chelsea","Manchester United"]
+hint="the team has won from 2016 to 2018"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the best footballer in Guinness World Record?"
+answers=["Lionel Messi"]
+alternatives=["Cristiano ROnaldo","Ronaldo R9","Zinadine Zidan"]
+hint="he is famous as Next Maradona"
+explanation="""
+"""
+
+[[Sports.questions]]
+question=" Which country has won the most number of men's field hockey Olympic gold medals?"
+answers=["Australia"]
+alternatives=["USA","France","India"]
+hint="this is the most succesful team"
+explanation="""
+"""
+
+[[Sports.questions]]
+question="Who is the all-time leading scorer in men's field hockey?"
+answers=["SOhail Abbas"]
+alternatives=["Jamie Dwyer","Teun de Nooijer","Dhanraj Pillay"]
+hint="This Pakistani player has scored over 350 goals in international matches, which is more than any other player in history."
+explanation="""
 """
