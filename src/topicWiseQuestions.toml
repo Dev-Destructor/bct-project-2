@@ -1,38 +1,128 @@
-[python]
-label = "Python"
+[business]
+label = "business"
 
-[[python.questions]]
-question = "How can you add a docstring to a function"
-answers = [
-    "By writing a string literal as the first statement in the function",
-    "By assigning a string to the function's .__doc__ attribute",
-]
+[[business.questions]]
+question = "Which of the following is NOT a factor of production?"
+answers = ["sales"]
 alternatives = [
-    "By using the built-in @docstring decorator",
-    "By returning a string from the function",
+    "labor",
+    "capital",
+    "technology"    
 ]
-hint = "They're parsed from your code and stored on the function object."
+hint = "related to marketing"
 explanation = """
-    Docstrings document functions and other Python objects. A docstring is a
-    string literal that occurs as the first statement in a module, function,
-    class, or method definition. Such a docstring becomes the .__doc__ special
-    attribute of that object. See PEP 257 for more information.
-
-    There's no built-in @docstring decorator. Many functions naturally return
-    strings. Such a feature can therefore not be used for docstrings.
+    Sales is not a factor of production. Factors of production are the resources used in the production process, including labor, capital, and technology.
 """
 
-[[python.questions]]
-question = "When was the first public version of Python released?"
-answers = ["February 1991"]
-alternatives = ["January 1994", "October 2000", "December 2008"]
-hint = "The first public version was labeled version 0.9.0."
+[[business.questions]]
+question = "What is the main purpose of a business plan?"
+answers = ["all"]
+alternatives = ["To secure funding from investors","to set financial goals for the business", " To outline marketing strategies"]
+hint = "here we need to focus on strategies"
 explanation = """
-    Guido van Rossum started work on Python in December 1989. He posted
-    Python v0.9.0 to the alt.sources newsgroup in February 1991. Python
-    reached version 1.0.0 in January 1994. The next major versions,
-    Python 2.0 and Python 3.0, were released in October 2000 and December
-    2008, respectively.
+A business plan serves multiple purposes, including securing funding from investors, setting financial goals for the business, and outlining marketing strategies.
+    
+"""
+[[business.questions]]
+question = "What is the function of human resource management in a business?"
+answers = ["Managing the employee"]
+alternatives = ["Managing the financial resources","Managing the physical resources", "  Managing the marketing strategies"]
+hint = "here we need to focus on strategies"
+explanation = """
+Human resource management involves managing the employees of a business, including recruitment, training, performance evaluation, and other personnel-related functions.
+    
+"""
+[[business.questions]]
+question = "Which of the following is an example of a variable cost in a business?"
+answers = ["Raw material"]
+alternatives = ["  Rent","salaries", " insurance"]
+hint = "Variable costs are expenses that vary with the level of production or sales volume"
+explanation = """
+Raw materials are an example of a variable cost because the cost of these materials increases or decreases depending on the amount of output a business produces. As the business produces more products, it will need to purchase more raw materials, resulting in higher variable costs. 
+"""
+[[business.questions]]
+question ="What is the purpose of a profit and loss statement in accounting? "
+answers=[". To calculate the net income of a business. "]
+alternatives = [" To show the financial position of a business at a specific point in time","To provide information about the cash flow of a business","To provide a summary of all transactions during a specific period of time"]
+hint="A profit and loss statement is also known as an income statement. It shows the revenues, expenses, and net income of a business during a specific period of time."
+explanation=""" The purpose of a profit and loss statement is to calculate the net income of a business by subtracting all expenses from the revenues generated during a specific period of time. It is an important financial statement that helps businesses evaluate their financial performance over time.
+"""
+
+[[business.questions]]
+question=" Which of the following is a characteristic of a corporation?"
+answers=[" Limited liability for the owners."]
+alternatives=[" Unlimited liability for the owners"," Simple and inexpensive to form","Has a single owner"]
+hints="A corporation is a legal entity that is separate from its owners. This means that the owners have limited liability for the debts and obligations of the business."
+explanation="""One of the main advantages of a corporation is that the owners have limited liability for the debts and obligations of the business. This means that the personal assets of the owners are protected from any legal action taken against the business.
+"""
+
+[[business.questions]]
+question=" What is the purpose of market research?"
+answers=[" To identify the target market for a product or service"]
+alternatives=["To develop a pricing strategy for a product or service"," To develop a product or service that meets the needs of the target market","To create a promotional plan to reach the target market"]
+hints="Market research is the process of gathering information about a market to help businesses make informed decisions about their products or services."
+explanation=""" The purpose of market research is to identify the target market for a product or service. This involves gathering information about the needs and preferences of potential customers, as well as analyzing the competition in the market. The information gathered through market research can then be used to develop a marketing strategy that will effectively reach and engage the target market.
+"""
+[[business.questions]]
+question="What is the purpose of a business plan? "
+answers=["To provide a roadmap for the future of a business."]
+alternatives=[" To outline the organizational structure of a business","To provide information about the cash flow of a business","To create a promotional plan to reach the target market"]
+hints=" A business plan is a written document that outlines a business's goals, strategies, and plans for the future."
+explanation=""" The purpose of a business plan is to provide a roadmap for the future of a business. It outlines the business's goals and objectives, the strategies it will use to achieve them, and the action plan for implementation. A well-written
+"""
+[[business.questions]]
+question=" Which of the following is not a factor of production?"
+answers=["market"]
+alternatives=["labor","capital","entrepreneurship"]
+hints="Factors of production are the resources used to produce goods and services."
+explanation=""" The market is not a factor of production. It is a place where buyers and sellers interact to exchange goods and services.
+"""
+
+[[business.questions]]
+question="Which of the following is not a type of business ownership?"
+answers=["union"]
+alternatives=["partnership","corporation","sole proprietorship"]
+hints="Business ownership refers to the legal structure of a business."
+explanation="""A union is an organization formed by workers to protect their rights and interests. It is not a type of business ownership.
+"""
+
+[[business.questions]]
+question="Which of the following is a marketing strategy that involves setting a high price for a new product to maximize profits?"
+answers=["skimming pricing"]
+alternatives=["penetration pricing","discount pricing","bundle pricing"]
+hints="Pricing strategies determine how much a company will charge for its products or services."
+explanation="""Skimming pricing involves setting a high price for a new product to maximize profits, usually before competitors enter the market.
+"""
+
+[[business.questions]]
+question="Which of the following is an economic system in which the government controls all aspects of production and distribution?"
+answers=["communism"]
+alternatives=["capitalism","socialism","market economy"]
+hints="Economic systems describe how a society decides what to produce, how to produce it, and how to distribute it."
+explanation="""Communism is an economic system in which the government controls all aspects of production and distribution, and there is no private ownership of property or resources.
+"""
+
+[[business.questions]]
+question="Which of the following is a legal agreement between two or more parties to conduct a business together?"
+answers=["joint venture"]
+alternatives=["franchise","acquisition","merger"]
+hints=" This type of agreement involves two or more parties collaborating to conduct a business."
+explanation=""" A joint venture is a legal agreement between two or more parties to conduct a business together for a specific purpose and period of time.
+"""
+
+[[business.questions]]
+question="Which of the following is a marketing strategy that involves promoting a product or service to a specific group of consumers?"
+answers=["Niche marketing"]
+alternatives=["mass marketing","guerilla marketing","direct marketing"]
+explanation="""
+"""
+
+[[business.questions]]
+question="Which of the following is a financial statement that shows a company's revenues and expenses over a period of time? "
+answers=["income statement"]
+alternatives=["balance sheet","cash flow statement","statement of earnings"]
+hints="Financial statements provide information about a company's financial performance and position."
+explanation="""The income statement shows a company's revenues and expenses over a period of time, usually a quarter or a year.
 """
 
 [capitals]
@@ -60,3 +150,206 @@ explanation = """
     be the capital of Texas and was incorporated in December 1839. Houston,
     Harrisburg, Columbia, and Galveston are all earlier capitals of Texas.
 """
+
+[[capital.questions]]
+question="What is the capital of France? "
+answers=["paris"]
+alternatives=["berlin","madrid","rome"]
+hint= "The Eiffel Tower is located in this city."
+explanation="""Paris is the capital of France because of its historical, cultural, and economic significance. The city has played a crucial role in the development of France as a nation since the Middle Ages, and has served as the capital since the 10th century.
+"""
+[[capital.questions]]
+question="What is the capital of India?"
+answers=["Delhi"]
+alternatives=["Gujurat","Chennai","Kolkata"]
+hint ="here is located the india gate"
+explanation="""as delhi has the ultimate management to maintain all the historical, cultural, and economic significance. The city has played a crucial role in the development of France as a nation since the Middle Ages, and has served as the capital since the 19th century
+"""
+
+[[capital.questions]]
+question="What is the capital of Canada?"
+answers=["Ottawa"]
+alternatives=["toronto","Montreal","Vancouver"]
+hints="This city is located in eastern Canada and is home to the Parliament of Canada."
+explanation="""
+"""
+
+[[capital.questions]]
+question="What is the capital of Brazil? "
+answers=["Brasilia"]
+alternatives=["Rio de Janeiro","Sao Paulo","Salvador"]
+hint="This city is located in eastern Canada and is home to the Parliament of Canada."
+explanation="""
+"""
+
+[[capital.questions]]
+question="What is the capital of Egypt?"
+answers=["Cairo"]
+alternatives=["Alexandria","Aswan","Luxor"]
+hint="This city is known for its ancient landmarks such as the Pyramids of Giza and the Sphinx."
+explanation="""
+"""
+
+[[capital.questions]]
+question="What is the capital of Australia?"
+answers=["Canberra"]
+alternatives=["Sydney","Melbourne","Perth"]
+hint="This city was purpose-built to serve as the capital of Australia and is located between Sydney and Melbourne."
+explanation="""
+"""
+
+[[capital.questions]]
+question="What is the capital of Spain?"
+answers=["Madrid"]
+alternatives=["BArcelona","Valencia","Seville"]
+hint="This city is known for its art museums, such as the Prado and the Reina Sofía, and is the largest city in Spain."
+explanation="""
+"""
+
+
+[[capital.questions]]
+question="What is the capital of Russia?"
+answers=["Moscow"]
+alternatives=["Sochi","St. Petersburg","Kazan"]
+hint="This city is home to the Kremlin, Red Square, and St. Basil's Cathedral."
+explanation="""
+"""
+
+
+[[capital.questions]]
+question="What is the capital of South Africa?"
+answers=["Pretoria"]
+alternatives=["Johannesburg","Durban","Cape town"]
+hint="Although Cape Town is the legislative capital of South Africa, Pretoria is the administrative capital and the seat of government."
+explanation="""
+"""
+
+
+[[capital.questions]]
+question="What is the capital of Japan?"
+answers=["TOkyo"]
+alternatives=["Osaka","Kyoto","Hiroshima"]
+hint=" This city is known for its high-tech industries and vibrant nightlife"
+explanation="""
+"""
+
+
+[[capital.questions]]
+question="What is the capital of Germany?"
+answers=["Berlin"]
+alternatives=["Munich","Frankfurt","Hamburg"]
+hint="This city has been the capital of Germany since 1990, following the reunification of East and West Germany."
+explanation="""
+"""
+
+
+[[capital.questions]]
+question="What is the capital of Mexico?"
+answers=["Mexico city"]
+alternatives=["Cancun","Monterrey","Guadalajara"]
+hint=" This city is one of the largest in the world, with a population of over 20 million people in its metropolitan area."
+explanation="""
+"""
+
+
+[[capital.questions]]
+question="What is the capital of South Korea?"
+answers=["Seoul"]
+alternatives=["Buchan","Incheon","Daegu"]
+hint="This city is a major center for technology, entertainment, and fashion, and is home to several universities."
+explanation="""
+"""
+
+[Sports]
+label = "Sports"
+
+[[Sports.questions]]
+question="Who is the all-time leading scorer in men's international soccer?"
+answers=["Cristiano Ronaldo"]
+alternatives=["Messi","Pele","Maradona"]
+hints="This Portuguese player has scored over 110 goals in international matches, surpassing the previous record held by Iran's Ali Daei."
+
+[[Sports.questions]]
+question="Who is the most successful tennis player in Grand Slam history?"
+answers=["Novak Djokovic"]
+alternatives=["Roger Federer","Pete Sampras","Rafael Nadal"]
+hints="This Serbian player has won a record 20 Grand Slam singles titles, surpassing the previous record held by Federer and Nadal."
+
+[[Sports.questions]]
+question="Who is the all-time leading scorer in the NBA?"
+answers=["Kareem Abdul Jabbar"]
+alternatives=["Kobe bryant","Michael Jordan","LeBron James"]
+hints=" This American player scored over 38,000 points in his career, surpassing the previous record held by Karl Malone."
+
+[[Sports.questions]]
+question="Who is the most successful Olympic athlete of all time?"
+answers=["Sachin Tendulkar"]
+alternatives=["Lara","Sangakara","Ponting"]
+hints="This Indian player scored over 34,000 runs in international matches, including 100 international centuries, which is more than any other player."
+
+[[Sports.questions]]
+question="Who is the fastest man in history?"
+answers=["Usain Bolt"]
+alternatives=["Tyson gay","YOhan Blake","Justin Galtin"]
+hints=" This Jamaican sprinter holds the world record in both the 100-meter and 200-meter dashes, with times of 9.58 seconds and 19.19 seconds, respectively."
+
+[[Sports.questions]]
+question=" Who is the only player to win Highest FIFA Ballon d'Or awards?"
+answers=["Lionel Messi"]
+alternatives=["Cristiano Ronaldo","Johan Cruyff","Kylian Mbappe"]
+hints="he is an ex Barcelona player"
+
+[[Sports.questions]]
+question="Who is the only golfer to win all four major championships in a single year?"
+answers=["BEn hogan"]
+alternatives=["tiger woods","jack nicklaus","arnold palmer"]
+hints="the golfer won the Masters, U.S. Open, British Open, and PGA Championship in 1953"
+
+[[Sports.questions]]
+question="Who is the most successful Formula One driver of all time?"
+answers=["Lewis Hamilton"]
+alternatives=["michael schumacher","ayrton senna","alain prost"]
+hints="This British driver has won a total of 7 Formula One World Championships, surpassing the previous record held by Schumacher."
+
+[[Sports.questions]]
+question="Who is the WWE superstar known as The Beast Incarnate"
+answers=["Brock lesnar"]
+alternatives=["john cena","triple H","Roman reigns"]
+hints="he has won the multiple universal championship"
+
+[[Sports.questions]]
+question="Which country has won the most number of women's field hockey World Cups?"
+answers=["Netherlands"]
+alternatives=["Australia","India","Argentina"]
+hints="They have won 8 World cups"
+
+[[Sports.questions]]
+question="which state of india firstly has won triple national sports championships"
+answers=["Kolkata"]
+alternatives=["Mumbai","Chennai","Bangalore"]
+hints="three sports are Cricket, football, kabaddi"
+
+[[Sports.questions]]
+question="which team has won the first hattrick ucl award in football"
+answers=["Real Madrid"]
+alternatives=["Barcelona","Chelsea","Manchester United"]
+hints="the team has won from 2016 to 2018"
+
+[[Sports.questions]]
+question="Who is the best footballer in Guinness World Record?"
+answers=["Lionel Messi"]
+alternatives=["Cristiano ROnaldo","Ronaldo R9","Zinadine Zidan"]
+hints="he is famous as Next Maradona"
+
+[[Sports.questions]]
+question=" Which country has won the most number of men's field hockey Olympic gold medals?"
+answers=["Australia"]
+alternatives=["USA","France","India"]
+hints="this is the most succesful team"
+
+[[Sports.questions]]
+question="Who is the all-time leading scorer in men's field hockey?"
+answers=["SOhail Abbas"]
+alternatives=["Jamie Dwyer","Teun de Nooijer","Dhanraj Pillay"]
+hints="This Pakistani player has scored over 350 goals in international matches, which is more than any other player in history."
+000
