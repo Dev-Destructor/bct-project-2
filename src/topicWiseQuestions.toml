@@ -799,3 +799,172 @@ alternatives=["Jamie Dwyer","Teun de Nooijer","Dhanraj Pillay"]
 hint="This Pakistani player has scored over 350 goals in international matches, which is more than any other player in history."
 explanation="""
 """
+
+[python]
+label = "Python"
+
+[[python.questions]]
+question = "Python is a ___object-oriented programming language."
+answers = ["General purpose"]
+alternatives = ["Special purpose", "Medium level programming language", "All of the mentioned above"]
+hint = "Its a computer language that is broadly applicable across application domains, and lacks specialized features for a particular domain."
+explanation = """
+   As a General Purpose Object-Oriented Programming Language, Python can model real-world entities,which makes it a useful tool for data scientists.
+    Because it performs type checking at runtime, it is also known as dynamically typed code.
+     Python is a general-purpose programming language, which means that it is widely used in every domain. 
+     This is due to the fact that it is very simple to understand and scalable, which allows for rapid development.
+"""
+
+[[python.questions]]
+question = "What is the name of the operator ** in Python?"
+answers = ["Exponentiation"]
+alternatives = ["Modulus","Floor division","None of the mentioned above"]
+hint = "We use the (**) double asterisk/exponentiation operator between the base and exponent values."
+explanation = """
+    The ** is an exponentiation operator in the Python programming language.
+     In Python, the ** operator is used to raise the number on the left to the power of the exponent on the right, which is represented by the symbol **.
+     In other words, in the expression 2 ** 3, 2 is raised to the third power, which is a positive number. 
+     In mathematics, we frequently see this expression written as 23, but what is really happening is that the numbers 2 and 3 are being multiplied by themselves three times.
+      In Python, we would get the same result of 8 by running either 2 ** 3 or 2 * 2 * 2.
+"""
+
+[[python.questions]]
+question = "Python Dictionary is used to store the data in a ___ format."
+answers = ["Key value pair"]
+alternatives = ["Group value pair", "Select value pair", "None of the mentioned above"]
+hint =The contents of a dict can be written as a series of key:value pairs within braces { }
+explanation = """
+    is used to store the data in a key-value pair format, which is similar to that of a database. 
+    The dictionary data type in Python is capable of simulating the real-world data arrangement in which a specific value exists for a specific key when the key is specified.
+     It is the data-structure that can be changed.
+     Each element of the dictionary is defined as follows: keys and values.
+"""
+
+[[python.questions]]
+question = "Who developed Python Programming Language?"
+answers = ["Guido van Rossum"]
+alternatives = ["Wick van Rossum", "Rasmus Lerdorf", "Niene Stom"]
+hint = "He a resident of the Netherlands."
+explanation = """
+    Python language is designed by a Dutch programmer Guido van Rossum in the Netherlands.
+"""
+
+
+[[python.questions]]
+question = "Which one of the following is not a keyword in Python language??"
+answers = ["eval"]
+alternatives = ["pass", "assert", "nonlocal"]
+hint = "It's allows you to evaluate arbitrary Python expressions from a string-based or compiled-code-based input. ."
+explanation = """
+    eval can be used as a variable..
+"""
+
+[Mythology]
+label = "Mythology"
+
+[[Mythology.questions]]
+question = "In which Yuga, Krishna was born?
+Answer: ["Dwapara Yuga"]
+alternatives = ["Satya Yuga", "Treta Yuga", "Kali Yuga"]
+hint = "According to the Puranas, this yuga ended when Krishna returned to his eternal abode of Vaikuntha."
+explanation = """
+    In this era, the divine intellect ceases to exist, and it is therefore seldom that anyone is wholly truthful. 
+    As a result of this life of deceit, people are plagued by ailments, diseases and various types of desires.
+     After suffering from these ailments, people realize their misdeeds and perform penance.
+"""
+
+[[Mythology.questions]]
+question = "What was the real name of Valmiki, the writer of Ramayana?"
+Answer: ["Ratnakar"]
+alternatives = ["Basuki", "Devabrata", "Partha"]
+hint = "As per Hindu Mythology, it is believed that Narada Muni transformed him into a great devotee of Lord Rama by giving him the Rama Nama mantra."
+explanation = """
+    While Ratnakara was sitting still and meditating for years, ants covered his body with mud to build their nest.
+     And, when Lord Brahma appeared to bless him, he saw Ratnakara covered by the anthill or 'Valmika' and gave him the name Valmiki.
+"""
+
+[[Mythology.questions]]
+question = Which one is the last kanda of the epic Ramayan??"
+Answer: ["Uttara Kanda"]
+alternatives = ["Yuddha Kanda", "Sundara Kanda", "Aranya Kanda"]
+hint = "Considered by several scholars to be an interpolation to the original six chapters,
+ this kanda narrates Rama's reign of Ayodhya, the birth of Lava and Kusha, the Ashvamedha yajna, and last days of Rama."
+explanation = """
+    Uttara Kanda is the last Book of the great epic Ramayana and it deals with the return of Rama to Ayodhya and his coronation to the throne. 
+    The reign of Rama in Ayodhya has also been narrated in this Book along with the second ordeal of Sita.
+"""
+
+[[Mythology.questions]]
+question = In Hindu mythology who was the first man to die?"
+Answer: ["Yama"]
+alternatives = ["Sudama", "Indra", "Narada"]
+hint = "He is the guardian of the south (the region of death) and presides over the resting place of the dead, which is located under the earth.."
+explanation = """
+    Yama, the God of death was the son of Surya, the sun God and Saranya. 
+    He is the twin brother of Yami, who became the river Yamuna. He was the first mortal to die and so, was made the God of death.
+"""
+
+[[Mythology.questions]]
+question = What was the name of conch of Arjun?"
+Answer: ["Devadatta"]
+alternatives = ["Paundra", "Atirathi", "Panchjanya"]
+hint = "There is also Varuna’s great conch shell, with an excellent sound."
+explanation = """
+    Devadatta is the conch of Arjuna which was obtained by Maya Danava from Varuna..
+"""
+[Environment]
+label = "Environment"
+
+[[Environment.questions]]
+question =What is the largest ecosystem of earth ?"
+Answer: ["Biosphere"]
+alternatives = ["Biome", "Hydrosphere", "Lithosphere"]
+hint =It's made up of the parts of Earth where life exists. ""
+explanation = """
+    Biosphere is the single largest ecosystem of the earth. 
+    Simply, biosphere is known as the sum of all ecosystems also known as the ecosystem also the zone of life on earth.
+"""
+
+[[Environment.questions]]
+question = What is the date of World Environmental day is celebrated?"
+Answer: ["05-06-2005"]
+alternatives = ["01-05-2001", "01-10-2024", "01-12-2025"]
+hint ="It's held each year on June."
+explanation = """
+    World Environment Day is held each year on June 5.
+     It is one of the principal vehicles through which the United Nations (UN) 
+     stimulates worldwide awareness of the environment and enhances political attention and action.
+"""
+
+[[Environment.questions]]
+question = Soil is eroded heavily due to deforestation, it affects the flowing of surface water badly. Which of the following is badly affected by these causes?"
+Answer: ["Ecological System"]
+alternatives = ["Human Resource", "Climate", "Local Plants"]
+hint = " It's contain biotic or living, parts, as well as abiotic factors, or nonliving parts. Biotic factors include plants, animals, and other organisms."
+explanation = """
+    Soil is eroded heavily due to deforestation, it affects the flowing of surface water badly. Ecological System is badly affected by these causes.
+     An ecosystem or ecological system is the base of habitats of species. In an ecosystem biotic beings (living organisms) interact with abiotic beings (non living things).
+     Deforestation leads to soil erosion vanishing the habitats thus damaging ecosystem.
+"""
+
+[[Environment.questions]]
+question = What is EL-Nino?"
+Answer: ["Warm", "Ocean", "Current"]
+alternatives = [Sea Storm  Tropical Disturbance  Another name of Typhoon]
+hint ="Low air pressure and heavy rainfall are caused by the warm water in the western Pacific Ocean. 
+(Warmer water causes the air above the ocean's surface to warm and rise, resulting in a low-pressure zone.) Lower air pressure is connected with more rainfall. "
+explanation = """
+    EL-Nino is Warm Ocean Current. El Niño (Spanish name for the male child), initially referred to a weak,
+     warm current appearing annually around Christmas time along the coast of Ecuador and Peru and lasting only a few weeks to a month or more.
+"""
+
+[[Environment.questions]]
+question =Which of the following environment supports the growth of Mangrove Swamp?"
+Answer: ["Tidal flat"]
+alternatives = ["Monsoon", "Equatorial", "Mixed"]
+hint = It's can be defined as sandy to muddy or marshy flats emerging during low tide and sub- merging during high tide (intertidal zone).""
+explanation = """
+    Tidal flat supports the growth of Mangrove Swamp. The combination of low tidal range and a climate which supports growth of vegatation tends to restrict the intertidal flats.
+     A mangrove swamp is a distinct saline woodland or shrubland habitat formed by mangrove trees.
+     They are characterized by depositional coastal environments, where fine sediments collect in areas protected from high-energy wave action.
+"""
